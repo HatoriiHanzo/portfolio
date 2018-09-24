@@ -1,0 +1,564 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+
+}
+
+html{
+  font-family: 'ABeeZee','Aldrich',sans-serif;
+  font-size: 18px;
+  margin:0;
+
+}
+
+body{
+  margin: 0 auto;
+
+}
+nav .container{
+  display: flex;
+
+}
+
+nav a{
+  flex-grow: 1;
+  text-align: center;
+  background-color: #033076;
+  color: white;
+  text-decoration: none;
+  font-family: 'Aldrich';
+  font-size: 1.75rem;
+  padding: 0.5rem 0rem;
+  width: 18%;
+  margin: 0;
+  height: 50px;
+}
+
+nav a:hover{
+  background-color: #5c748d;
+  color: #033076;
+}
+
+
+nav .logo{
+  width: 250px;
+  text-align: center;
+  padding: 0.5rem 0rem 0rem 0rem;
+
+}
+
+.banner{
+  display: flex;
+  background: url(/img/amsterdam1.jpg) center center no-repeat;
+  
+  background-size: cover;
+  height: 700px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+h1{
+  color: white;
+  font-size: 3rem;
+}
+
+.banner p{
+  color: white;
+ font-size: 2.5rem;
+}
+
+.statement{
+ padding: 2rem;
+  text-align: center;
+  height: 300px;
+  color: #033076;
+  font-size: 1.5rem;
+}
+
+.statement2{
+  display: flex;
+  background-color: #033076;
+  height: 325px;
+}
+
+.statement2 .column{
+  width: 25%;
+  text-align: center;
+  padding: 0rem 3rem;
+}
+.statement2 .column2{
+  width: 25%;
+  text-align: center;
+  padding: 0rem 3rem;
+}
+.statement2 .column3{
+  width: 25%;
+  text-align: center;
+  padding: 0rem 3rem;
+}
+
+
+
+
+h2{
+  font-family: 'Aldrich';
+  color:white;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+.column p{
+  color:white;
+  font-family: 'ABeeZee';
+}
+.column2 p{
+  color:white;
+  font-family: 'ABeeZee';
+}
+.column3 p{
+  color:white;
+  font-family: 'ABeeZee';
+}
+
+
+section.skills {
+  padding: 2rem 10rem 6rem 10rem;
+}
+
+.skills h2 {
+  color: #033076;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.progress {
+  display: flex;
+  height: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.progress .label {
+  flex: 0 0 8rem;
+  height: 2.4rem;
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  color: #033076;
+  font-family: 'Aldrich';
+  font-size: 1rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.progress .bar {
+  flex: 1;
+  height: 2.4rem;
+  background-color: #5c748d;
+  line-height: 2.4rem;
+}
+
+.progress .knob {
+  height: 2.4rem;
+  background-color: #033076;
+}
+
+section .portfolio{
+  background-color: #5c748d;
+  height: 900px;
+
+  
+}
+
+.block{
+  margin: 2rem 0rem;
+  text-align: center;
+  height: 200px;
+  background-color: white;
+}
+
+.portfolio1{
+ 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0rem 15rem 0rem 15rem;
+ 
+}
+
+h6,{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Aldrich';
+  padding: 5rem 0rem;
+}
+
+section .about{
+  background-color: #033076;
+  height: 800px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+ .about h3{
+   height: 25%;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-size: 3rem;
+   font-family: 'Aldrich';
+   padding: 5rem 0rem 0rem 0rem;
+   
+ }
+
+.about .column{
+  width: 50%;
+  text-align: center;
+  
+}
+
+.column img{
+  max-width: 40%;
+  height: auto;
+  padding: 1rem;
+
+}
+.column2 img{
+  max-width: 30%;
+  height: auto;
+  padding: 1rem;
+
+}
+.column3 img{
+  max-width: 30%;
+  height: auto;
+  padding: 0.5rem 1rem 0rem 1rem;
+
+}
+
+.about p{
+  padding: 5rem 5rem 0rem 0rem;
+  
+
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  margin-top: -6rem;
+}
+h4{
+  color: #033076;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Aldrich';
+  padding: 5rem 0rem;
+}
+
+.contact1{
+background-color:  #5c748d;
+height: 900px;
+
+
+}
+
+
+
+.formsquare{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+  height: 200px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Aldrich';
+  padding: 5rem 0rem;
+
+}
+
+.firstname{
+  width: 40%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.lastname{
+  width: 40%;
+  height: 10%; 
+  display: flex;
+  justify-content: flex-end;
+  order: 1;
+}
+.email{
+  width: 40%;
+  height: 10%; 
+}
+.phone{
+  width: 40%;
+  height: 10%; 
+  order: 1;
+}
+.message{
+  display: flex;
+  justify-content: center;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+}
+
+.container p{
+  text-align: center;
+  padding: 0rem 0rem 2rem 0rem;
+}
+
+input {
+  color: #033076;
+  border: none;
+  border-bottom: 2px solid #033076;
+  width: 50%;
+  background-color: #5c748d;
+  outline: none;
+  font-family: 'Aldrich';
+  
+}
+
+::placeholder{
+  color: #033076;
+  opacity: 1;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  outline: none;
+  font-family: 'Aldrich'
+}
+
+
+button{
+  background-color: #033076;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  font-family: 'Aldrich';
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  nav a{
+    font-size: 0;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  nav .icon{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  nav a.home{ display: none; }
+  nav a.skills{display: none;}
+  nav a.portfolio{display:none;} 
+  nav a.about{display:none;}
+  nav a.contact{display:none;}
+
+}
+
+@media screen and (max-width: 1230px){
+.statement2{
+flex-wrap: wrap;
+height: 800px;
+justify-content: space-around;
+
+}
+.statement2 .column{
+  width: 50%;
+}
+.statement2 .column2{
+  width: 50%;
+}
+.statement2 .column3{
+  width: 50%;
+}
+.column3 img{
+  max-width: 40%;
+  height: auto;
+  padding: 0rem 1rem 0rem 1rem;
+}
+}
+
+
+@media screen and (max-width: 1438px){
+section .portfolio{
+  background-color: #5c748d;
+  height: 1100px;}}
+
+@media screen and (max-width: 1140px){
+    section .portfolio{
+      background-color: #5c748d;
+      height: 2000px;}
+}
+
+
+
+@media screen and (max-width: 1225px){
+      .about p{
+        padding: 0rem 10rem 0rem 0rem;}}
+
+
+        @media screen and (max-width: 775px){
+          .about p{
+            padding: 0rem 5rem 0rem 0rem;}}
+
+@media screen and (max-width: 600px){
+
+  section .about{
+    display: flex;
+    flex-direction: column;
+  }
+  .about .column{
+    width: 100%;
+    text-align: center;
+    
+  }
+  .about p{
+    padding: 2rem 5rem 0rem 5rem;}
+
+    .portfolio1{
+ 
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      margin: 0.5rem 0rem 0rem 0.5rem;
+      
+    }
+}
+
+@media screen and (max-width: 710px){
+  .git img{
+    max-width: 100%;
+    height: auto;
+  }
+  .linkedin img{
+    max-width: 100%;
+    height: auto;
+  }
+  .facebook img{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 416px){
+.about p{
+  padding: 2rem 5rem 0rem 5rem;
+  font-size: 16px;
+}
+h4{
+  font-size: 45px
+}
+section .container h4{
+  font-size: 40px;
+}
+}
+
+@media screen and (max-width: 800px){
+
+section.skills{
+  padding: 2rem 2rem 6rem 2rem;
+}
+}
+
+@media screen and (min-width: 2180px){
+section .about{height: 1000px;
+}
+
+
+}
+
+
+@media screen and (max-width: 450px){
+.statement p{
+  font-size: 20px;
+}
+
+}
+
+
+
+@media screen and (max-width: 420px){
+.statement2 .column p{
+  font-size: 15px;
+}}
+
+@media screen and (max-width: 460px){
+  .statement2 .column{
+    padding: 0rem 1rem;}
+    .statement2 .column2{
+      padding: 0rem 1rem;}
+      .statement2 .column3{
+        padding: 0rem 1rem;
+}}
+
+@media screen and (max-width: 340px){
+  .about p{
+    padding: 2rem;}
+
+
+}
+
+
+
+@media screen and (max-width: 360px){
+  .column img{
+    max-width: 100px;
+    height: auto;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+    .column2 img{
+    max-width: 100px;
+    height: auto;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+.column3 img{
+  max-width: 100px;
+  height: auto;
+  padding: 0rem 1rem 0rem 1rem;
+}}
+
+@media screen and (max-width: 600px){
+  .column img{
+    max-width: 100px;
+    height: auto;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+    .column2 img{
+    max-width: 100px;
+    height: auto;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+.column3 img{
+  max-width: 100px;
+  height: auto;
+  padding: 0rem 1rem 0rem 1rem;
+}}
